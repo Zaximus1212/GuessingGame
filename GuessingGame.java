@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class GuessingGame {
-
-    public static void main(String[] args) {
+    public GuessingGame(){
         Scanner input = new Scanner(System.in);
         System.out.println("Hello, what's your name?");
         System.out.print("(type in your name)");
